@@ -1,5 +1,6 @@
 package com.example.demo.conditional;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
@@ -25,6 +26,7 @@ import org.springframework.context.annotation.Configuration;
  * */
 
 //创建配置类
+@EnableAutoConfiguration
 @Configuration
 public class MyConfiguration {
 	// 创建一个name为zjh的bean

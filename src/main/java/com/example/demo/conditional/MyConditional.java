@@ -16,5 +16,4 @@ public class MyConditional implements Condition {
 		return false;//返回false表示不加载此配置类或bean ， true 反之
 	}
 	
-
 }

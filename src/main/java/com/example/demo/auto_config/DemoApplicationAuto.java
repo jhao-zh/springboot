@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import com.example.demo.app.Test;
+
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
@@ -19,7 +21,7 @@ class DemoConfiguration {
 	}
 }
 
-public class DemoApplication {
+public class DemoApplicationAuto {
 	public static void main(String[] args) {
 		// SpringApplication.run(DemoConfiguration.class, args);
 		SpringApplication bootstrap = new SpringApplication(DemoConfiguration.class);

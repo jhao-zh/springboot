@@ -4,13 +4,15 @@ import java.io.PrintStream;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
-import com.example.demo.auto_config.Test;
-
-@SpringBootApplication
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
 class DemoConfiguration2 {
 	@Bean
 	public Test test() {
@@ -18,7 +20,7 @@ class DemoConfiguration2 {
 	}
 }
 
-public class DemoApplication {
+public class DemoApplicationApp {
 
 	public static void main(String[] args) {
 		// SpringApplication.run(DemoApplication.class, args);
