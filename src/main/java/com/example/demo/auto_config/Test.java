@@ -1,4 +1,4 @@
-package com.example.demo.enable_auto;
+package com.example.demo.auto_config;
 
 public class Test {
 	public void hello() {

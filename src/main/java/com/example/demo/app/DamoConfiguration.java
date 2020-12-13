@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.example.demo.enable_auto.Test;
+import com.example.demo.auto_config.Test;
 
 public class DamoConfiguration {
 	@Configuration

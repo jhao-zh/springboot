@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 
-import com.example.demo.enable_auto.Test;
+import com.example.demo.auto_config.Test;
 
 @SpringBootApplication
 class DemoConfiguration2 {
